@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .banner{
+        width: 640px;
+        display:flex;
+        justify-content: center;
+      }
+      .banner-image{
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: #f6f2af solid 10px;
+      }
+      
+      .thumbnail{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 80px;
+        border:#fffffe solid 10px;
+      }
+
+      .name{
+        color: #7b3933;
+        display:flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display:flex;
+        justify-content: space-around;
+      }
+      .social-icons a{
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link{
+        background-color: #fed5dd;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+      }
+
+      .link a{
+        color: #001e1d;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align:center;
+        flex-grow: 1;
+      }
+
+      .items{
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class = "items">
+
+    <div class = "banner">
+      <img src ="thumbnails/Pompompurin.webp" alt = "Pompompurin" class= "banner-image">
+    
+    </div>
+
+    <div class = "name">
+      Pompompurin's Secret Website
+    </div>
+
+    <div class = "social-icons">
+      
+      <a href="https://github.com/carolstran/sanrio-api" target="_blank">
+        GitHub
+      </a>
+  
+      <a href="https://www.linkedin.com/company/sanrio-inc." target="_blank">
+        LinkedIn
+      </a>
+  
+      <a href="https://www.instagram.com/explore/tags/pompompurin/?hl=en" target="_blank">
+        Instagram
+      </a>
+    </div>
+
+    <div class= "link">
+      <img src="/thumbnails/keroppi.png" class = "thumbnail">
+      <a target = "_blank" 
+         href = "https://hello-yoshi.fandom.com/wiki/Keroppi"> Keroppi</a>
+    </div>
+
+    <div class = "link">
+      <img src = "thumbnails/kuromi.webp" class = "thumbnail">
+      <a target = "_blank"
+         href = "https://hello-yoshi.fandom.com/wiki/Kuromi"> Kuromi
+      </a>
+    </div>
+
+    <div class = "link">
+      <img src = "thumbnails/mymelody.webp" class="thumbnail">
+      <a target = "_blank"
+         href = "https://hello-yoshi.fandom.com/wiki/My_Melody"> My Melody
+      </a>
+    </div>
+  </div>
+  </body>
+  
+</html>
